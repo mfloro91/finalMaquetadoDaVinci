@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <link href="../tablet.css" rel="stylesheet" media="screen and (max-width:800px)">
+    <link href="../mobile.css" rel="stylesheet" media="screen and (max-width:480px)"> 
+    <link rel="icon" type="image/jpg" href="../Imagenes/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../Recursos/jquery.min.js"></script>
+	<script type="text/javascript" src="../Recursos/ui/jquery-ui.js"></script>
+	<link rel="stylesheet" href="../Recursos/ui/jquery-ui.css" />
+    <script src="../Recursos/details-shim.min.js"></script>
+    <link rel="stylesheet" href="../Recursos/details-shim.min.css"/>
+    <title>Información Turística en Barcelona</title>
+</head>
+
+<body>
+
+    <header class="headerPages">
+
+        <nav class="navbar">
+            <a href="#navegacion" id="menu">Menu</a>
+            <ul id="navegacion">
+                <li> <a href="#"><span id="cerrar">Cerrar</span></a></li>
+                <li> <a href="../index.html">Home</a> </li>
+                <li> <a href="circuitos.html"> Circuitos </a> </li>
+                <li class="navegacion"> <a href="informacion.html"> Info turística </a> </li>
+                <li> <a href="contacto.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+
+        <h1>Información turística</h1>
+    
+    </header>
+
+    <main>
+
+        <ul class="sectionNav">
+            <li><a href="#clima"> Clima </a></li>
+            <li><a href="#actividades"> Cosas que hacer </a></li>
+            <li><a href="#ubicacion"> Ubicación </a></li>
+            <li><a href="#alojamientos"> Alojamientos </a></li>
+        </ul>
+
+        <div id="actividades">
+            <h2>Cosas que hacer</h2>
+            <div id="contenido">
+                <ul class="pestañas">
+                    <li><a href="#espectaculos">Espectáculos</a></li>
+                    <li><a href="#gastronomia">Gastronomía</a></li>
+                    <li><a href="#tours">Tours guiados</a></li>
+                    <li><a href="#naturaleza">Naturaleza</a></li>
+                </ul>
+                
+                <div id="espectaculos">
+                    <h2>Espectáculos</h2>
+                    <p class="parrafoSection">  <em> Barcelona te espera con gustos musicales y artísticos variados. Desde shows de Flamenco, hasta obras teatrales. <br/>
+                    Visita algunos de los espectáculos más vendidos.</em></p>
+                    <div class="galeriaImagenes">
+                        <img src="../Imagenes/espectaculo1.png" alt="Chica canta rock sosteniendo micrófono">
+                        <img src="../Imagenes/espectaculo3.png" alt="Manos de mujer sosteniendo castañuelas">
+                        <img src="../Imagenes/espectaculo2.png" alt="Mujer baila flamenco acompañada de bailarines en las afueras del alcazar">
+                    </div>
+                    <div class="galeriaImagenesResponsive">
+                        <img src="../Imagenes/espectaculo1_responsive.png" alt="Chica canta rock sosteniendo micrófono">
+                        <img src="../Imagenes/espectaculo3_responsive.png" alt="Manos de mujer sosteniendo castañuelas">
+                    </div>
+                </div>
+                <div id="gastronomia">
+                    <h2>Gastronomía</h2>
+                    <p class="parrafoSection"> <em> Riquísimas tapas y pinchos, jamón serrano y una buena cerveza. Barcelona tiene todos los platos típicos españoles para deleitarte.</em><br/>
+                    Conoce algunos de los platos típicos.</p>
+                    <div class="galeriaImagenes">
+                        <img src="../Imagenes/comida1.png" alt="Pinchos de carne servidos en una bandeja">
+                        <img src="../Imagenes/comida2.png" alt="Bandeja de paella con mejillones y arroz">
+                        <img src="../Imagenes/comida3.png" alt="Tapas de jamón crudo servidas en un pan">
+                    </div>
+                    <div class="galeriaImagenesResponsive">
+                        <img src="../Imagenes/comida1_responsive.png" alt="Chica canta rock sosteniendo micrófono">
+                        <img src="../Imagenes/comida2_responsive.png" alt="Manos de mujer sosteniendo castañuelas">
+                    </div>
+                </div>
+                <div id="tours">
+                    <h2>Tours guiados</h2>
+                    <p class="parrafoSection">Toda gran aventura empieza con una buena guía. <em>Apúntate en estos tours para recorrer Barcelona con un experto de la ciudad.</em>  Ideales para viajeros que quieran conocer gente.<br/>
+                    Explora todos nuestros tours guiados.</p>
+                    <div class="galeriaImagenes">
+                        <img src="../Imagenes/tours1.png" alt="Hombre de espaldas festeja con mano en alto en un estadio de futbol">
+                        <img src="../Imagenes/tours2.png" alt="Fachada de la sagrada familia vista desde el lateral">
+                        <img src="../Imagenes/tours3.png" alt="Grafiti escrito sobre una persiana metálica en la calle de Barcelona">
+                    </div>
+                    <div class="galeriaImagenesResponsive">
+                        <img src="../Imagenes/tours1_responsive.png" alt="Chica canta rock sosteniendo micrófono">
+                        <img src="../Imagenes/tours2_responsive.png" alt="Manos de mujer sosteniendo castañuelas">
+                    </div>
+                </div>
+                <div id="naturaleza">
+                    <h2>Naturaleza</h2>
+                    <p class="parrafoSection"> <em> No todo es ciudad, Barcelona tiene espacios verdes que puedes disfrutar. Animate a alejarte de la <span lang="en"> city </span> y realiza un buen <span lang="en"> trekking </span> o recorre la naturaleza.</em><br/>
+                    Conoce las afueras de la ciudad.</p>
+                    <div class="galeriaImagenes">
+                        <img src="../Imagenes/naturaleza1.png" alt="Puente que entra al mar llamado Pont de Petroli">
+                        <img src="../Imagenes/naturaleza2.png" alt="Estatua de mujer posando en paseo marítimo"> 
+                        <img src="../Imagenes/naturaleza3.png" alt="Silla gigante como estatua en la playa">
+                    </div>
+                    <div class="galeriaImagenesResponsive">
+                        <img src="../Imagenes/naturaleza1_responsive.png" alt="Chica canta rock sosteniendo micrófono">
+                        <img src="../Imagenes/naturaleza2_responsive.png" alt="Manos de mujer sosteniendo castañuelas">
+                    </div>
+                </div>
+            </div>
+            
+            <script>
+            $('#contenido').tabs( );
+            </script>
+
+
+        </div>
+
+        <div id="clima">
+
+            <h2>Clima</h2>
+
+            <div class="contenidoClima">
+                <h3>El clima en Barcelona hoy</h3>
+                
+                <iframe src="https://www.youtube.com/embed/qZNllevHTk0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+
+            <div class="contenidoClima">
+                <h3>Clima durante todo el año</h3>
+                <p class="parrafoAlojamiento"> <strong> En Barcelona, los veranos son cortos, calurosos, húmedos y mayormente despejados y los inviernos son largos, fríos y parcialmente nublados.</strong> Durante el transcurso del año, la temperatura generalmente varía de 5 °C a 28 °C y rara vez baja a menos de 1 <abbr title="celsius">°C </abbr>o sube a más de 31 °C.<br/>
+                En base a la puntuación de playa/piscina, la mejor época del año para visitar Barcelona para las actividades de calor es desde finales de junio hasta finales de agosto</p>
+            </div>
+        </div>
+
+
+        <div id="alojamientos">
+            
+            <h2>Alojamientos</h2>
+            <p class="parrafoAlojamiento"> <strong>A la hora de alojarte en Barcelona, tendrás múltiples barrios para elegir. Te recomendamos la zona de Plaza Cataluña. </strong>  También podrás investigar las zonas del Paseo de Gracia y El Born.</p>
+            
+
+                <div >
+                    <h3>Plaza Cataluña, alojate en el centro de la ciudad </h3>              
+    
+                        <div class="cardAlojamiento">
+                                <img src="../Imagenes/gran-hotel-havana.jpg" alt="cartel en la playa indica con flechas y expresa distintos destinos" class="imgCard">
+                                <h4 class="cardTitle">Gran Hotel Havana</h4> 
+                                <p>4 estrellas</p>
+                        </div>
+                            
+                        <div class="cardAlojamiento">
+                            <img src="../Imagenes/petit-palace-boqueria-garden.jpg" alt="cartel en la playa indica con flechas y expresa distintos destinos" class="imgCard">
+                            <h4 class="cardTitle">Petit Palace Boquería Garden</h4> 
+                            <p>3 estrellas</p>
+                        </div>
+                        
+                    <div class="cardAlojamiento">
+                        <img src="../Imagenes/st-christophers-inn.jpg" alt="cartel en la playa indica con flechas y expresa distintos destinos" class="imgCard">
+                        <h4 class="cardTitle">St Crhistophers Inn</h4> 
+                        <p>2 estrellas</p>
+                    </div>
+                    
+                </div>
+    
+            </div>
+        
+
+        <div id="ubicacion">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95780.46585387255!2d2.0701494476447033!3d41.39277549770279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1668638806919!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="contenido">
+                    
+                    <p class="parrafoAlojamiento"> <strong> Barcelona es una provincia de España situada en el nordeste del país, en la comunidad autónoma de Cataluña.</strong> Limita con la provincia de Tarragona por el sudoeste, la de Lérida por el noroeste; Gerona por el nordeste y con el mar Mediterráneo por el sudeste.</p>
+
+            </div>
+          
+
+        </div>
+
+
+
+    </main>
+
+    <footer class="footerSections">
+
+        <div><h2>Maquetado y Desarrollo Web</h2>
+            <h3>Segundo cuatrimestre 2022 </h3>
+            <h4>Escuela Da Vinci</h4>
+            <p>Este sitio fue diseñado y desarrollado por María Florencia Rossi para la materia de Maquetado y Desarrollo Web, a cargo de la profesora Mabel García.</p>
+        </div>
+        <div>
+            <h2>Contacto</h2>
+            <p>Mail: maria.rossi@davinci.edu.ar</p>
+            <p>Celular: 1156993835</p>
+            <div>
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-florencia-rossi/" target="_blank"><img src="../Imagenes/linkedin.png" alt="Logo de linkedin" ></a>
+                <a href="mailto:maria.rossi@davinci.edu.ar" target="_blank"><img src="../Imagenes/email.png" alt="Logo de email"></a>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>

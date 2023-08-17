@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="tablet.css" rel="stylesheet" media="screen and (max-width:800px)">
+    <link href="mobile.css" rel="stylesheet" media="screen and (max-width:480px)"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="./Imagenes/favicon.ico">
+    <script src="./Recursos/jquery.min.js"></script>
+    <script src="./Recursos/cycle/jquery_cycle.js"></script>
+    <script src="./Recursos/details-shim.min.js"></script>
+    <link rel="stylesheet" href="./Recursos/details-shim.min.css"/>
+    <script> 
+        $('#galeriaIndex').cycle({ 
+        fx: 'fade',
+        speed: 1000, 
+        timeout: 1000, 
+        prev: '#ant',
+        next: '#sig',
+        pause: true
+    });
+    </script>
+    <script> 
+        $('#galeriaIndexMobile').cycle({ 
+        fx: 'fade',
+        speed: 1000, 
+        timeout: 1000, 
+        prev: '#ant',
+        next: '#sig',
+        pause: true
+    });
+    </script>
+    <title>Conoce Barcelona</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+        <a href="#navegacion" id="menu">Menu</a>
+            <ul id="navegacion">
+                <li> <a href="#"><span id="cerrar">Cerrar</span></a></li>
+                <li> <a href="./Paginas/circuitos.html"> Circuitos </a> </li>
+                <li> <a href="./Paginas/informacion.html"> Info turística </a> </li>
+                <li> <a href="./Paginas/contacto.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <h1>Barcelona, <span> una ciudad que enamora </span></h1>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="section1">
+            <div>
+                <h2>Conoce la ciudad</h2>
+                <p class="parrafoSection"> <em> Barcelona es una ciudad llena de originales opciones de ocio que animan a visitarla una y otra vez. </em> <strong> Abierta al mar Mediterráneo y afamada por Gaudí y su arquitectura modernista, Barcelona se revela como una de las capitales europeas más <span lang="en"> trendy.</span> </strong> La ciudad es un foco de nuevas tendencias en el mundo de la cultura, la moda y la gastronomía. Combina la creatividad de sus artistas y diseñadores con el respeto y cuidado por los locales tradicionales de siempre. </p>
+                <p class="parrafoSection">En ella, conviven el encanto y la pausa de su casco histórico, la vanguardia de sus barrios más modernos y el ritmo urbano de una de las ciudades más visitadas del mundo.</p>
+            </div> 
+        </section>
+
+
+        <div class="sectionCards"> 
+
+            <div class="containerCards">
+                <h2 class="titleCenter">Arma tu viaje</h2>                               
+                <a href="./Paginas/circuitos.html" class="linkCard">
+                    <div>
+                            <img src="./Imagenes/cartel.png" alt="cartel en la playa indica con flechas y expresa distintos destinos" class="imgCard">
+                            <h3 class="cardTitle">Circuitos turísticos</h3> 
+                            <p>Conoce los recorridos que podrás hacer en Barcelona</p>
+                    </div>
+                </a>
+                
+                <a href="./Paginas/informacion.html" class="linkCard">
+                    <div>
+                        <img src="./Imagenes/Mapa.jpg" alt="chica viendo un mapa en el medio de la ruta, sentada en el capot de su auto" class="imgCard">
+                        <h3 class="cardTitle">Info turística</h3>
+                        <p>Clima, ubicación, alojamientos y cosas para hacer</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+            <div class="sectionContacto">  
+                <div>
+                    <h2>Sobre nosotros</h2>
+                    <p class="parrafoContacto"><strong> Somos expertos en acompañar viajeros en todo el mundo. Armamos experiencias a medida para que disfrutes Barcelona.</strong>
+                    Tenemos descuentos para grupos y también acompañamiento a quienes viajan solos.</p>
+                    <p class="parrafoContacto"><em> Recorre la ciudad, conoce la playa, sal de fiesta. Barcelona tiene todo para un plan a medida. ¿Te gustaría conocernos?.</em></p>
+                    <a href="./Paginas/contacto.html" class="button"> Quiero saber más </a>   
+                </div>  
+                
+                                
+            </div>
+
+
+        <div class="backgroundGaleria">
+
+            <div class="containerGaleria">
+                
+                <h2 class="titleCenter">Nuestros clientes</h2>
+
+                <div class="izquierda">
+                    <a href="#" id="ant">Prev</a>
+                </div>
+
+                <div id="galeriaIndex">
+
+                    <img src="./Imagenes/galeria1.png" alt="Grupo de 4 turistas, dos mujeres y dos varones, señalan el horizonte mientras miran un mapa en una plaza">
+                    <img src="./Imagenes/galeria2.png" alt="Grupo de 4 turistas, dos mujeres y dos varones, miran un mapa parados en una plaza de ciudad">
+                    <img src="./Imagenes/galeria3.png" alt="Una mujer y un hombre tomados del brazo, con un mapa en la mano, pasean por la ciudad">
+                    <img src="./Imagenes/galeria4.png" alt="Una mujer sola camina por un puente mientras levanta el brazo en actitud empoderada">
+
+                </div>
+                
+                
+                <div id="galeriaIndexMobile">
+
+                    <img src="./Imagenes/galeria1_mobile.png" alt="Grupo de 4 turistas, dos mujeres y dos varones, señalan el horizonte mientras miran un mapa en una plaza">
+                    <img src="./Imagenes/galeria2_mobile.png" alt="Grupo de 4 turistas, dos mujeres y dos varones, miran un mapa parados en una plaza de ciudad">
+                    <img src="./Imagenes/galeria3_mobile.png" alt="Una mujer y un hombre tomados del brazo, con un mapa en la mano, pasean por la ciudad">
+                    <img src="./Imagenes/galeria4_mobile.png" alt="Una mujer sola camina por un puente mientras levanta el brazo en actitud empoderada">
+
+                </div>
+
+                <div class="derecha">
+                    <a href="#" id="sig">Next</a>
+                </div>
+
+        </div>
+
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+
+        <div><h2>Maquetado y Desarrollo Web</h2>
+            <h3>Segundo cuatrimestre 2022 </h3>
+            <h4>Escuela Da Vinci</h4>
+            <p>Este sitio fue diseñado y desarrollado por María Florencia Rossi para la materia de Maquetado y Desarrollo Web, a cargo de la profesora Mabel García.</p>
+        </div>
+        <div>
+            <h2>Contacto</h2>
+            <p>Mail: maria.rossi@davinci.edu.ar</p>
+            <p>Celular: 1156993835</p>
+            <div>
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-florencia-rossi/" target="_blank"><img src="./Imagenes/linkedin.png" alt="Logo de linkedin"></a>
+                <a href="mailto:maria.rossi@davinci.edu.ar" target="_blank"><img src="./Imagenes/email.png" alt="Logo de email"></a>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+
+
+
+</html>

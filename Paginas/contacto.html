@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <link href="../tablet.css" rel="stylesheet" media="screen and (max-width:800px)">
+    <link href="../mobile.css" rel="stylesheet" media="screen and (max-width:480px)"> 
+    <link rel="icon" type="image/jpg" href="../Imagenes/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+    <script src="../Recursos/details-shim.min.js"></script>
+    <link rel="stylesheet" href="../Recursos/details-shim.min.css"/>
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header class="headerPages">
+
+        <nav class="navbar">
+            <a href="#navegacion" id="menu">Menu</a>
+            <ul id="navegacion">
+                <li> <a href="#"><span id="cerrar">Cerrar</span></a></li>
+                <li> <a href="../index.html">Home</a> </li>
+                <li> <a href="circuitos.html"> Circuitos </a> </li>
+                <li> <a href="informacion.html"> Info turística </a> </li>
+                <li class="navegacion"> <a href="contacto.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+
+        <h1>Contacto</h1>
+    
+    </header>
+
+    <main>
+
+        <div class="seccionContacto">
+            <img src="../Imagenes/contacto.png" alt="Hombre adulto con una valija sonríe y señala el formulario de contacto">
+            <div class="contenidoContacto">
+                <h2>Planifica tu viaje</h2>
+                <p class="parrafoContacto"> <strong> ¿Quieres viajar a Barcelona pero no sabés por dónde empezar? Contactanos y juntos idearemos la mejor experiencia para tu viaje.</strong>
+                </p>
+                <div class="formulario">
+                    <h3>Formulario de contacto</h3>
+                    <form action="../procesar.php" method="post">
+                        <span>Datos de contacto</span>
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <span>Seleccione la fecha de su viaje</span>
+                        <input type="date" name="Fecha" required>
+                        <span>¿Cuáles son sus intereses?</span>
+                        <label>Tours guiados
+                            <input type="checkbox" name="ToursGuiados" value="toursguiados">
+                        </label>
+                        <label>Espectáculos
+                            <input type="checkbox" name="Espectaculos" value="espectaculos">
+                        </label>
+                        <label>Gastronomía
+                            <input type="checkbox" name="Gastronomia" value="gastronomia">
+                        </label>
+                        <label>Naturaleza
+                            <input type="checkbox" name="Naturaleza" value="naturaleza">
+                        </label>
+                        <input type="submit">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footerSections">
+        <div><h2>Maquetado y Desarrollo Web</h2>
+            <h3>Segundo cuatrimestre 2022 </h3>
+            <h4>Escuela Da Vinci</h4>
+            <p> <strong> Este sitio fue diseñado y desarrollado por María Florencia Rossi para la materia de Maquetado y Desarrollo Web, a cargo de la profesora Mabel García.</strong></p>
+        </div>
+        <div>
+            <h2>Contacto</h2>
+            <p>Mail: maria.rossi@davinci.edu.ar</p>
+            <p>Celular: 1156993835</p>
+            <div>
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-florencia-rossi/" target="_blank"><img src="../Imagenes/linkedin.png" alt="Logo de linkedin"></a>
+                <a href="mailto:maria.rossi@davinci.edu.ar" target="_blank"><img src="../Imagenes/email.png" alt="Logo de email"></a>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>

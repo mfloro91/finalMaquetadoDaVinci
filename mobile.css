@@ -1,0 +1,374 @@
+/*Nav*/
+
+.navbar {
+    background-position: 120px;
+}
+
+#navegacion {
+    display: none;
+	width:138px; 
+    height: 150px;
+	background-color:#A51B24;
+	margin-top:3px;
+	margin-left:0px;
+}
+
+#navegacion:target{
+	display:block;
+	}
+
+.navbar a {
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+}
+
+.navbar ul {
+    text-align: left;
+}
+
+#navegacion li {
+    margin-bottom: 15px;
+}
+
+#menu {
+    background: url(./Imagenes/menu.png) no-repeat;
+    display:inline-block;
+    font-size:0px;
+    margin: 15px;
+    width: 36px;
+    height: 36px;
+}
+
+li  [href="#"] {
+    display: block; 
+}
+
+#cerrar{
+    display:block;
+    background:url(./Imagenes/cerrar.png) no-repeat;
+    font-size: 0px;
+    width: 30px;
+    height: 26px;
+    margin-left: 100px;
+}
+
+
+
+
+/* Banner */
+
+.banner {
+    background-image: url(./Imagenes/Background1_mobile.png);    
+}         
+
+
+/*Textos*/
+
+h1 {
+    font-size: 35px;
+    width: 300px;
+}      
+    
+h1 span {
+    font-size: 30px;
+}
+
+    
+h2 {
+    font-size: 28px;
+}
+
+    
+h3 {
+    font-size: 20px;
+}
+
+/*INDEX*/
+
+/*Section 1*/
+
+.section1 {
+    background-color: #A51B24;
+    background-image: none;
+    border-radius: 20%;
+    height: 642px;
+    margin-bottom: 60px;
+
+}
+
+.section1 > div {
+    padding-top: 46px;
+    margin-left: 10%;
+    color: white;  
+}
+
+.parrafoSection  {
+    width: 300px;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-right: 0px;
+    
+}
+
+
+/*Section 2*/
+
+.sectionCards {
+    background-image: url(./Imagenes/background_sectioncards_mobile.png);
+    margin-bottom: 60px;
+}
+
+.titleCenter {
+    padding-left: 18%;
+    width: 250px;
+}
+
+.containerCards {
+   
+    background-color: transparent;
+    margin: 0px;
+}
+
+
+
+/*Section 3*/
+
+.sectionContacto {
+    background-color: #FBF0DD;
+    background-image: none;
+    border-radius: 20%;
+    height: 500px;
+    margin: 0px;
+}
+
+.sectionContacto > div {
+    margin-left: 10%;
+    padding-left: 5%;
+    width: 280px;
+}
+
+
+
+.parrafoContacto {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+
+.sectionContacto > div {
+    display: block;
+    padding-top: 46px;
+}
+
+.button {
+    background-color: #A51B24;
+    color:#FBF0DD;
+    
+
+}
+
+
+/*Galeria JQuery*/
+
+.backgroundGaleria {
+    background-image: url(./Imagenes/background_sectioncards_mobile.png);
+}
+
+#ant {
+    display: none;
+}
+
+#sig {
+    display: none;
+}
+
+.containerGaleria {
+    width: auto;
+    background-color: transparent;
+    padding: 40px 0px;
+}
+
+#galeriaIndex {
+    display: none;
+}
+
+#galeriaIndexMobile {
+    
+    display: inline-block;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 15%;
+    
+    
+}
+
+/*FOOTER*/
+
+footer {
+    height: 600px;
+    padding-left: 12%;
+}
+
+footer > div {
+    margin-bottom: 50px;
+    
+}
+
+/*PAGE CONTACTO*/
+
+.headerPages h1 {
+    padding: 150px 0px;
+}
+
+.seccionContacto {
+    background-image: none;
+}
+
+.contenidoContacto h2, .contenidoContacto p {
+    padding-left: 12%;
+}
+
+.contenidoContacto {
+    margin-left: 0%;
+    width: 300px;
+}
+
+.formulario {
+    width: 300px;
+    padding: 10% 6%;
+    margin-left: 6%;
+}
+
+.formulario input, label {
+    width: 250px;
+}
+
+label {
+    margin-right: 5%;
+
+}
+
+/*PAGE INFO*/
+
+.sectionNav {
+    display: none;
+}
+
+#actividades, #alojamientos, #clima, #ubicacion, #alojamientos {
+    margin-left: 6%;
+    margin-top: 50px;  
+}
+
+iframe {
+    width: 350px;
+
+}
+
+.galeriaImagenesResponsive {
+    margin-top: 15px;
+}
+
+
+.parrafoAlojamiento {
+    margin: 10px 0px;
+    width: 320px;
+    
+}
+
+.contenidoGracias {
+    background-image: url(./Imagenes/background_gracias_mobile.png);
+    padding: 35px;
+    height: 300px;
+}
+
+.containerCards {
+    width: 300px;
+    margin-left: 4%;
+}
+
+/*PAGE CIRCUITOS */
+
+.margin {
+    margin: 60px 0px 0px 30px;
+}
+
+ol > li, .lista {
+    width: 98%;
+}
+
+.parrafoMasCircuitos, ul > li > h3 {
+    margin-left: 10%;
+}
+
+ol > li:hover, .lista:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 98%;
+}
+
+
+@media screen and (max-width:400px){
+.parrafoCircuitos, .parrafoMasCircuitos {
+    width: 250px;
+}
+}
+
+@media screen and (max-width:360px){
+  
+    h1 {
+        width: 247px;
+    }
+    .section1 > div {
+        margin-left: 2%;
+        padding: 25px;
+    }
+    .parrafoSection {
+        width: 268px;
+    }
+
+    a > div {
+        margin-left: 0px;
+    }
+
+    .titleCenter {
+        padding-left: 8%;
+    }
+
+    .sectionContacto > div {
+        margin: 18px;
+        width: 280px;
+    }
+    
+    .parrafoContacto {
+        width: 239px;
+    }
+
+    footer {
+        padding-left: 2%;
+    }
+
+    .formulario {
+        width: 249px;
+    }
+
+    .parrafoSection {
+        width: 235px;
+    }
+
+    iframe {
+        width: 280px;
+    
+    }
+
+    .cardAlojamiento {
+    margin-right: 0px;
+    }
+
+    #clima {
+        height: 886px;
+    }
+    
+    .parrafoAlojamiento {
+    width: 260px;
+    }
+}

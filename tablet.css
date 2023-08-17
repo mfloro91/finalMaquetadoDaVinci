@@ -1,0 +1,305 @@
+/*Nav*/
+
+.navbar {
+    background-position: 45px;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url(./Imagenes/Banner_barcelona_tablet.jpg);    
+    height: 476px;
+}         
+
+
+/*Textos*/
+
+h1 {
+    font-size: 60px;
+    padding-top: 200px;
+    margin-left: 45px;
+    width: 400px;
+}      
+    
+h1 span {
+    font-size: 50px;
+}
+
+    
+h2 {
+    font-size: 30px;
+}
+
+    
+h3 {
+    font-size: 25px;
+}
+
+/*INDEX*/
+
+/*Section 1*/
+
+
+.section1 {
+    background-image: url(./Imagenes/Background1_tablet.jpg);
+    height: 500px;
+}
+
+.section1 > div {
+    margin-left: 38%;
+    padding-left: 5%;
+}
+
+.parrafoSection {
+    width: 250px;
+}
+
+/*Section 2*/
+
+.sectionCards {
+    height: fit-content;
+}
+
+.containerCards {
+    width: 400px;
+}
+
+a > div {
+    margin-left: 15%;
+}
+
+a > div:hover {
+    transform: none;
+}
+
+/*Section 3*/
+
+.sectionContacto {
+    background-image: url(./Imagenes/background3_tablet.png);
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 45px;
+}
+.parrafoContacto {
+    width: 250px;
+    margin: 5% 0%;
+}
+
+.sectionContacto > div {
+    display: block;
+   
+}
+
+.button {
+    margin-left: 0%;
+}
+
+/*Galeria JQuery*/
+
+#ant {
+    display: none;
+}
+
+#sig {
+    display: none;
+}
+
+.containerGaleria {
+    width: 500px;
+}
+
+#galeriaIndexMobile {
+    display:none;
+}
+
+
+/*FOOTER*/
+
+footer {
+    height: 500px;
+    padding-left: 30%;
+}
+footer > div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*PAGE CONTACTO*/
+
+.headerPages h1 {
+    padding-left: 0px;
+}
+
+.seccionContacto img {
+    display: none;
+}   
+
+.seccionContacto {
+    margin-top: 50px;
+}
+
+.contenidoContacto {
+    margin-left: 20%;
+}
+
+
+/*PAGE INFO*/
+
+.sectionNav {
+    padding: 6px;
+}
+
+#actividades, #alojamientos, #clima, #ubicacion, #alojamientos {
+    margin-left: 45px;
+    margin-top: 90px;
+    background-image: none;
+}
+
+#contenido {
+    width: 90%;
+}
+
+.contenidoClima {
+    margin-right: 0px;
+}
+
+.galeriaImagenesResponsive {
+    display: inline-block;
+}
+
+.galeriaImagenes {
+    display: none;
+}
+
+.parrafoAlojamiento {
+    margin-top: 17px;
+}
+
+.contenido {
+    margin-left: 0px;
+}
+
+#ubicacion {
+    height: 600px;
+}
+
+.cardAlojamiento:hover {
+    transform: none;
+}
+
+
+
+/*gracias*/
+
+.seccionGracias img {
+    display: none;
+}
+
+.seccionGracias {
+    margin-top: 45px;
+    margin-left: 5%;
+}
+
+/*PAGE CIRCUITOS*/
+
+.sectionNav {
+    display: none;
+}
+
+ol > li:hover, .lista:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 90%;
+}
+
+
+@media screen and (max-width:650px){
+    #SF {
+    background-image: url(./Imagenes/SF_mobile.png);
+    
+}
+    #boqueria {
+        background-image: url(./Imagenes/boqueria_mobile.png);
+    }
+
+    #rambla {
+        background-image: url(./Imagenes/barceloneta_mobile.png);
+    }
+
+    #gotico {
+        background-image: url(./Imagenes/gotico_mobile.png);
+    }
+
+    .parrafoCircuitos,  .parrafoMasCircuitos {
+        
+    width: 300px;
+    margin: 30px 15px 30px 20%;
+}
+
+
+    ol > li > h3, ul > li > h3 {
+    margin-left: 20%;
+}
+
+}
+
+@media screen and (max-width:700px){
+    .navbar {
+        background-position: 120px;
+    }
+    
+    #navegacion {
+        display: none;
+        width:138px; 
+        height: 150px;
+        background-color:#A51B24;
+        margin-top:3px;
+        margin-left:0px;
+    }
+    
+    #navegacion:target{
+        display:block;
+        }
+    
+    .navbar a {
+        background-color: transparent;
+        color: white;
+        padding: 0px;
+    }
+    
+    .navbar ul {
+        text-align: left;
+    }
+    
+    #navegacion li {
+        margin-bottom: 15px;
+    }
+    
+    #menu {
+        background: url(./Imagenes/menu.png) no-repeat;
+        display:inline-block;
+        font-size:0px;
+        margin: 15px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    li  [href="#"] {
+        display: block; 
+    }
+    
+    #cerrar{
+        display:block;
+        background:url(./Imagenes/cerrar.png) no-repeat;
+        font-size: 0px;
+        width: 30px;
+        height: 26px;
+        margin-left: 100px;
+    }
+    
+    .contenidoContacto {
+        margin-left: 10%;
+    }
+    
+}
+ 
+
